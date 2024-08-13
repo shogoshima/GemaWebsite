@@ -59,7 +59,7 @@ function HomePage() {
 				<Row>
 					<Col>
 						<h3>Patrocinadores</h3>
-						<div style={{ display: "flex", flexDirection: "column", marginTop: "0" }}>
+						<div style={{ display: "flex", flexDirection: "column", marginTop: "0", alignItems: "center" }}>
 							<img style={{ height: "150px", width: "auto" }} src="https://latamlist.com/wp-content/uploads/2023/08/Untitled-design-1.png"></img>
 						</div>
 					</Col>
