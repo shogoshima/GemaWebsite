@@ -19,6 +19,9 @@ export default function Header() {
 					<Navbar.Toggle className="navbar-toggler" aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ml-auto navbar-nav">
+							<Nav.Link
+								style={{ fontWeight: 'bold' }}
+								href="https://precious-fish-530.notion.site/REGIONAL-2024-b07cac9a10b6442a96a5f635be3a9844?pvs=4" target='_blank'>REGIONAL 2024</Nav.Link>
 							<Nav.Link href="/About">Sobre</Nav.Link>
 							<Nav.Link href="/News">Notícias</Nav.Link>
 							<Nav.Link href="/Material">Materiais</Nav.Link>

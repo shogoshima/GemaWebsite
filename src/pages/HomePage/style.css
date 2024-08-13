@@ -76,3 +76,17 @@
 	margin-top: -80px;
 }
 
+.regional-2024 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 4rem;
+	margin-top: 0;
+	gap: 0.5rem;
+}
+
+#regional-card-button {
+	padding: 0.5rem;
+}
