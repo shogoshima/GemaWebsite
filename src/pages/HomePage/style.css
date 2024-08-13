@@ -87,6 +87,39 @@
 	gap: 0.5rem;
 }
 
-#regional-card-button {
+#regional-card-buttonToolbar {
 	padding: 0.5rem;
+}
+
+#regional-card-button {
+	/* color: var(--color-1-light);
+	border-color: var(--color-1-light);
+	background-color: transparent;
+    border: 1px solid; */
+	color: #303030;
+	border: 1.3px solid;
+	border-color: transparent;
+	background-color: var(--color-2-extra-light);
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+	align-self: flex-end;
+	justify-self: end;
+}
+
+#regional-card-button:hover {
+	box-shadow: 0 0 10px var(--color-shadow-2);
+	/* background-color: transparent; */
+	/* color: #ffc107; */
+	/* border-color: #ffc107; */
 }

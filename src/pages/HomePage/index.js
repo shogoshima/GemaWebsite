@@ -45,13 +45,17 @@ function HomePage() {
 						</div>
 					</Col>
 				</Row>
-				<div className='regional-2024'>
-					<h3>REGIONAL 2024</h3>
-					<div>Vai fazer a regional em São Carlos?</div>
-					<div id='card-buttonToolbar'>
-						<Button id="card-button" href="https://precious-fish-530.notion.site/REGIONAL-2024-b07cac9a10b6442a96a5f635be3a9844?pvs=4" target="_blank">Acesse aqui para mais informações!</Button>
-					</div>
-				</div>
+				<Row>
+					<Col>
+						<div className='regional-2024'>
+							<h3>REGIONAL 2024</h3>
+							<div>Vai fazer a regional em São Carlos?</div>
+							<div id='regional-card-buttonToolbar'>
+								<Button id="regional-card-button" href="https://precious-fish-530.notion.site/REGIONAL-2024-b07cac9a10b6442a96a5f635be3a9844?pvs=4" target="_blank">Acesse aqui para mais informações!</Button>
+							</div>
+						</div>
+					</Col>
+				</Row>
 				<Row>
 					<Col>
 						<h3>Patrocinadores</h3>
